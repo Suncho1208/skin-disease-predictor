@@ -225,3 +225,8 @@ data/**/*.zip
 
 # Local virtualenv created at src/skin-disease
 src/skin-disease/
+
+# Training checkpoints (large; Colab / local only)
+checkpoints/
+*.pt
+*.pth

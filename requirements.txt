@@ -1,0 +1,24 @@
+
+# --- Core data handling ---
+pandas
+numpy
+h5py          # for reading the SLICE-3D .hdf5 image bundle
+scikit-learn  # for train/val splitting utilities
+pillow        # image loading/manipulation
+opencv-python # image loading/manipulation (some pipelines prefer this over PIL)
+albumentations
+
+# --- Deep learning ---
+torch
+torchvision
+timm          # pretrained EfficientNet / MobileNet / ViT backbones, ready for transfer learning
+ 
+# --- Utilities ---
+tqdm          # progress bars, very useful when looping over 400k images
+matplotlib    # for visualizing sample images / class balance
+ 
+# --- Interface (for later) ---
+gradio
+ 
+# --- Downloading the dataset ---
+kaggle

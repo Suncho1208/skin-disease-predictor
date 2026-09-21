@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw / bulky data (download locally or on Colab; do not commit)
+data/raw/
+data/**/*.hdf5
+data/**/*.zip
+*.hdf5
+
+# Local virtualenv created at src/skin-disease
+src/skin-disease/

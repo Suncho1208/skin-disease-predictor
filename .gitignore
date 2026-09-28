@@ -230,3 +230,5 @@ src/skin-disease/
 checkpoints/
 *.pt
 *.pth
+
+.DS_Store
